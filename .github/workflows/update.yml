@@ -1,0 +1,42 @@
+name: Update grammar file
+
+on:
+    schedule:
+        - cron: "0 0 * * 1"
+    workflow_dispatch:
+
+permissions:
+    contents: write
+    pull-requests: write
+
+jobs:
+    update-grammar-file:
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                node-version: [21.x]
+
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - run: npm ci
+            - run: npm run build
+            - name: Get current date
+              id: date
+              run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+            - uses: peter-evans/create-pull-request@v6
+              with:
+                  commit-message: "fix: auto-update grammar file (${{ steps.date.outputs.date }})"
+                  delete-branch: true
+                  title: "fix: auto-update grammar file (${{ steps.date.outputs.date }})"
+                  base: main
+                  body: |
+                      This PR was automatically generated to update the grammar file.
+                  branch: ${{ steps.date.outputs.date }}
+                  reviewers: Robot-Inventor
