@@ -1,0 +1,27 @@
+{
+  "name": "shell-session-syntax",
+  "version": "1.0.0",
+  "description": "Grammar files for better syntax highlight of Shell Session.",
+  "main": "scripts/generate.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ts-node ./scripts/generate.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robot-Inventor/shell-session-syntax.git"
+  },
+  "author": "Robot-Inventor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robot-Inventor/shell-session-syntax/issues"
+  },
+  "homepage": "https://github.com/Robot-Inventor/shell-session-syntax#readme",
+  "devDependencies": {
+    "@types/tar": "^6.1.11",
+    "rss-parser": "^3.13.0",
+    "tar": "^6.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
