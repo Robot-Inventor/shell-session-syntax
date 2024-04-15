@@ -1,7 +1,7 @@
 import Parser from "rss-parser";
 import fs from "fs";
 import path from "path";
-import tar from "tar";
+import * as tar from "tar";
 
 const TEMPORARY_DIRECTORY = "temp";
 const OUTPUT_DIRECTORY = "syntaxes";
