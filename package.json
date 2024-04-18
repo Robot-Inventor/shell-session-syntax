@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/Robot-Inventor/shell-session-syntax#readme",
   "devDependencies": {
-    "@types/tar": "^6.1.11",
     "rss-parser": "^3.13.0",
     "tar": "^7.0.0",
     "ts-node": "^10.9.2",
