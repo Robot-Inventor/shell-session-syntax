@@ -5,8 +5,8 @@
         "https://github.com/jeff-hykin/better-shell-syntax/",
         "https://github.com/github-linguist/linguist/"
     ],
-    "lastUpdated": "2024-04-22T00:50:01.287Z",
-    "shellGrammarVersion": "3d4b49d090d8253f35debdfaf59e17ea1a3e92af",
+    "lastUpdated": "2024-04-29T00:49:37.132Z",
+    "shellGrammarVersion": "6d0bc37a6b8023a5fddf75bd2b4eb1e1f962e4c2",
     "shellSessionGrammarVersion": "v7.29.0",
     "name": "shellsession",
     "scopeName": "text.shell-session",
@@ -40,7 +40,7 @@
             "include": "#initial_context"
         },
         "alias_statement": {
-            "begin": "(?:(alias)(?:[ \\t]*+)((?:(?:((?<!\\w)-\\w+\\b)(?:[ \\t]*+))*))(?:(?:[ \\t]*+)(?:((?<!\\w)(?:[a-zA-Z_0-9-]+)(?!\\w))(?:(?:(\\[)((?:(?:(?:(?:\\$?)(?:(?<!\\w)(?:[a-zA-Z_0-9-]+)(?!\\w))|@)|\\*)|(-?\\d+)))(\\]))?))(?:(?:(\\=)|(\\+\\=))|(\\-\\=))))",
+            "begin": "(?:(?:[ \\t]*+)(alias)(?:[ \\t]*+)((?:(?:((?<!\\w)-\\w+\\b)(?:[ \\t]*+))*))(?:(?:[ \\t]*+)(?:((?<!\\w)(?:[a-zA-Z_0-9-]+)(?!\\w))(?:(?:(\\[)((?:(?:(?:(?:\\$?)(?:(?<!\\w)(?:[a-zA-Z_0-9-]+)(?!\\w))|@)|\\*)|(-?\\d+)))(\\]))?))(?:(?:(\\=)|(\\+\\=))|(\\-\\=))))",
             "end": "(?:(?= |\\t|$)|(?:(?:(?:(;)|(&&))|(\\|\\|))|(&)))",
             "beginCaptures": {
                 "1": {
