@@ -11,10 +11,13 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ts-node ./scripts/generate.ts && tsc"
+    "build": "ts-node ./scripts/generate.ts && tsc",
+    "ci:version": "changeset version",
+    "ci:publish": "tsc && changeset publish"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,8 @@
   },
   "homepage": "https://github.com/Robot-Inventor/shell-session-syntax#readme",
   "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.1",
     "rss-parser": "^3.13.0",
     "tar": "^7.0.0",
     "ts-node": "^10.9.2",
