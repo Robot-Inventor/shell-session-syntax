@@ -31,7 +31,9 @@ npm install @robot-inventor/shell-session-syntax
 
 ```typescript
 import { getHighlighter } from "shiki";
+// Directly import the downloaded file.
 import shellSession from "./shell-session.tmLanguage.json";
+// Or import the package.
 import shellSession from "@robot-inventor/shell-session-syntax";
 
 const code = `
