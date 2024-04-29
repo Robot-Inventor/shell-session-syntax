@@ -23,11 +23,16 @@ This project automatically generates the grammar file. It uses [better-shell-syn
 
 ## Usage
 
-To use shell-session-syntax in Shiki, please download ``./syntaxes/shell-session.tmLanguage.json`` and load it as a custom language grammar. It automatically overwrites the default ``shellsession`` grammar.
+To use shell-session-syntax in Shiki, please download ``./syntaxes/shell-session.tmLanguage.json`` or install the package and load it as a custom language grammar. It automatically overwrites the default ``shellsession`` grammar.
 
-```javascript
+```bash
+npm install @robot-inventor/shell-session-syntax
+```
+
+```typescript
 import { getHighlighter } from "shiki";
-import shellSession from "./shell-session.tmLanguage.json" assert { type: "json" };
+import shellSession from "./shell-session.tmLanguage.json";
+import shellSession from "@robot-inventor/shell-session-syntax";
 
 const code = `
 user@foo$ echo "Hello, World!" > hello.txt
