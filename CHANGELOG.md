@@ -1,5 +1,11 @@
 # @robot-inventor/shell-session-syntax
 
+## 1.0.3
+
+### Patch Changes
+
+- [#30](https://github.com/Robot-Inventor/shell-session-syntax/pull/30) [`6005fd5`](https://github.com/Robot-Inventor/shell-session-syntax/commit/6005fd5c4dbfa601de88209c362136b31a611b9b) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - fix: change import assertion to import attribute
+
 ## 1.0.2
 
 ### Patch Changes
