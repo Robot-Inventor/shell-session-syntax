@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ts-node ./scripts/generate.ts && tsc",
+    "build": "tsx ./scripts/generate.ts && tsc",
     "ci:version": "changeset version",
     "ci:publish": "tsc && changeset publish"
   },
@@ -34,7 +34,7 @@
     "@changesets/cli": "^2.27.1",
     "rss-parser": "^3.13.0",
     "tar": "^7.0.0",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.9.3",
     "typescript": "^5.4.2"
   },
   "dependencies": {
