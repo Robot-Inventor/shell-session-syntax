@@ -1,5 +1,11 @@
 # @robot-inventor/shell-session-syntax
 
+## 1.0.5
+
+### Patch Changes
+
+- [#36](https://github.com/Robot-Inventor/shell-session-syntax/pull/36) [`7d113a8`](https://github.com/Robot-Inventor/shell-session-syntax/commit/7d113a8388c665309ade3306435f63c97e663c5e) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency shiki to v1.5.0
+
 ## 1.0.4
 
 ### Patch Changes
