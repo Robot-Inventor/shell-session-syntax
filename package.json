@@ -1,6 +1,6 @@
 {
   "name": "@robot-inventor/shell-session-syntax",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Grammar files for better syntax highlight of Shell Session.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
