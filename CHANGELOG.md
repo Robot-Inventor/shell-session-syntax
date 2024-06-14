@@ -1,5 +1,11 @@
 # @robot-inventor/shell-session-syntax
 
+## 1.0.17
+
+### Patch Changes
+
+- [#82](https://github.com/Robot-Inventor/shell-session-syntax/pull/82) [`f2e530a`](https://github.com/Robot-Inventor/shell-session-syntax/commit/f2e530a03a372428e5526dd2654e4db691bd62cc) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps-dev): bump braces from 3.0.2 to 3.0.3
+
 ## 1.0.16
 
 ### Patch Changes
