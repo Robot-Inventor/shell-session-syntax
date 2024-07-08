@@ -5,8 +5,8 @@
         "https://github.com/jeff-hykin/better-shell-syntax/",
         "https://github.com/github-linguist/linguist/"
     ],
-    "lastUpdated": "2024-06-24T00:54:01.707Z",
-    "shellGrammarVersion": "6d0bc37a6b8023a5fddf75bd2b4eb1e1f962e4c2",
+    "lastUpdated": "2024-07-08T00:55:00.837Z",
+    "shellGrammarVersion": "02b319d961f1396b35981139d38c572134806cb5",
     "shellSessionGrammarVersion": "v7.30.0",
     "name": "shellsession",
     "scopeName": "text.shell-session",
@@ -1573,7 +1573,7 @@
                     "include": "#subshell_dollar"
                 },
                 {
-                    "begin": "(?<![^ \\t])({)",
+                    "begin": "(?<![^ \\t])({)(?!\\w|\\$)",
                     "end": "}",
                     "beginCaptures": {
                         "1": {
