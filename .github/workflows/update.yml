@@ -38,5 +38,5 @@ jobs:
                   base: main
                   body: |
                       This PR was automatically generated to update the grammar file.
-                  branch: ${{ steps.date.outputs.date }}
+                  branch: auto-update-grammar-file
                   reviewers: Robot-Inventor
