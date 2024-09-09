@@ -1,5 +1,11 @@
 # @robot-inventor/shell-session-syntax
 
+## 1.1.0
+
+### Minor Changes
+
+- [#146](https://github.com/Robot-Inventor/shell-session-syntax/pull/146) [`3de1a45`](https://github.com/Robot-Inventor/shell-session-syntax/commit/3de1a458f165fb5658e35b3c36bb95b70e710e42) Thanks [@github-actions](https://github.com/apps/github-actions)! - fix: auto-update grammar file (2024-09-09)
+
 ## 1.0.30
 
 ### Patch Changes
