@@ -104,6 +104,7 @@ const main = async () => {
         lastUpdated: new Date().toISOString(),
         shellGrammarVersion: shell.version,
         shellSessionGrammarVersion: shellSession.version,
+        aliases: ["console"],
         ...shellSessionGrammar,
         repository: {
             shell: {
