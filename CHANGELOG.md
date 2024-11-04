@@ -1,5 +1,15 @@
 # @robot-inventor/shell-session-syntax
 
+## 2.0.0
+
+### Major Changes
+
+- [#158](https://github.com/Robot-Inventor/shell-session-syntax/pull/158) [`c0b10a4`](https://github.com/Robot-Inventor/shell-session-syntax/commit/c0b10a4faf1d0eb8e00ef6d8b909ce2799935222) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - feat: add `console` as an alias
+
+### Patch Changes
+
+- [#153](https://github.com/Robot-Inventor/shell-session-syntax/pull/153) [`04ead58`](https://github.com/Robot-Inventor/shell-session-syntax/commit/04ead58fcc9816a4a92bff97c1d580c368467f69) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency shiki to v1.22.2
+
 ## 1.1.1
 
 ### Patch Changes
