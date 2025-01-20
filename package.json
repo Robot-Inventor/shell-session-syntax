@@ -40,6 +40,6 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
-    "shiki": "^1.3.0"
+    "shiki": "^2.0.0"
   }
 }
