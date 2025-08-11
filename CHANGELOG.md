@@ -1,5 +1,13 @@
 # @robot-inventor/shell-session-syntax
 
+## 3.2.2
+
+### Patch Changes
+
+- [#240](https://github.com/Robot-Inventor/shell-session-syntax/pull/240) [`4b38bdc`](https://github.com/Robot-Inventor/shell-session-syntax/commit/4b38bdcebbb2b7cd37cdbbd0c4cfa2c1756baa9d) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - ci: migrate from npm token to trusted publishing
+
+- [#237](https://github.com/Robot-Inventor/shell-session-syntax/pull/237) [`6be6d7e`](https://github.com/Robot-Inventor/shell-session-syntax/commit/6be6d7e02c4b1fdbe4b9b185209b4e587ff77199) Thanks [@github-actions](https://github.com/apps/github-actions)! - fix: auto-update grammar file (2025-08-11)
+
 ## 3.2.1
 
 ### Patch Changes
