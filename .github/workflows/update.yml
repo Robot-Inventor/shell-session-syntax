@@ -30,7 +30,7 @@ jobs:
             - name: Get current date
               id: date
               run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-            - uses: peter-evans/create-pull-request@v7
+            - uses: peter-evans/create-pull-request@v8
               with:
                   commit-message: "fix: auto-update grammar file (${{ steps.date.outputs.date }})"
                   delete-branch: true
