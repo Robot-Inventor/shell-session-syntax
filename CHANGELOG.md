@@ -1,5 +1,13 @@
 # @robot-inventor/shell-session-syntax
 
+## 3.3.2
+
+### Patch Changes
+
+- [#264](https://github.com/Robot-Inventor/shell-session-syntax/pull/264) [`890d8a9`](https://github.com/Robot-Inventor/shell-session-syntax/commit/890d8a9a6d5cc8d6057796f932e408e235c45673) Thanks [@github-actions](https://github.com/apps/github-actions)! - fix: auto-update grammar file (2025-12-29)
+
+- [#270](https://github.com/Robot-Inventor/shell-session-syntax/pull/270) [`f0e2f3b`](https://github.com/Robot-Inventor/shell-session-syntax/commit/f0e2f3b4a03ec44612a85cbc303fa7623a8fb6eb) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency shiki to v3.20.0
+
 ## 3.3.1
 
 ### Patch Changes
