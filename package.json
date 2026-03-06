@@ -39,6 +39,6 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
-    "shiki": "^3.0.0"
+    "shiki": "^4.0.0"
   }
 }
