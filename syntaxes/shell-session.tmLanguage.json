@@ -5,9 +5,9 @@
         "https://github.com/jeff-hykin/better-shell-syntax/",
         "https://github.com/github-linguist/linguist/"
     ],
-    "lastUpdated": "2026-03-02T01:45:13.778Z",
+    "lastUpdated": "2026-03-23T01:51:51.757Z",
     "shellGrammarVersion": "02b319d961f1396b35981139d38c572134806cb5",
-    "shellSessionGrammarVersion": "v9.4.0",
+    "shellSessionGrammarVersion": "v9.5.0",
     "aliases": [
         "console"
     ],
