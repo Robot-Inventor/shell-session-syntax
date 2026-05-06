@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/Robot-Inventor/shell-session-syntax#readme",
   "devDependencies": {
-    "@changesets/changelog-github": "^0.6.0",
+    "@changesets/changelog-github": "^0.7.0",
     "@changesets/cli": "^2.27.1",
     "@robot-inventor/tsconfig-base": "^7.0.0",
     "@types/node": "^25.0.2",
