@@ -1,5 +1,11 @@
 # @robot-inventor/shell-session-syntax
 
+## 4.2.1
+
+### Patch Changes
+
+- [#325](https://github.com/Robot-Inventor/shell-session-syntax/pull/325) [`116dddb`](https://github.com/Robot-Inventor/shell-session-syntax/commit/116dddb4178b5c975baae2bf9b42af1bafb3a51c) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: update vulnerable dependencies
+
 ## 4.2.0
 
 ### Minor Changes
