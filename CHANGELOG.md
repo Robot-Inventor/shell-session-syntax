@@ -1,5 +1,13 @@
 # @robot-inventor/shell-session-syntax
 
+## 4.3.1
+
+### Patch Changes
+
+- [#359](https://github.com/Robot-Inventor/shell-session-syntax/pull/359) [`fe8a026`](https://github.com/Robot-Inventor/shell-session-syntax/commit/fe8a02654498ae8f609e5d4f0fb9f0e0a33da07d) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: update vulnerable dependencies
+
+- [#352](https://github.com/Robot-Inventor/shell-session-syntax/pull/352) [`b0ae1b7`](https://github.com/Robot-Inventor/shell-session-syntax/commit/b0ae1b7cf3064d471cc9e9c4f28ae0d1b4a19888) Thanks [@github-actions](https://github.com/apps/github-actions)! - fix: auto-update grammar file (2026-10-19)
+
 ## 4.3.0
 
 ### Minor Changes
