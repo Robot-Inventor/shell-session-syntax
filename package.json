@@ -35,7 +35,7 @@
     "@robot-inventor/tsconfig-base": "^7.0.0",
     "@types/node": "^26.6.5",
     "rss-parser": "^3.13.0",
-    "tar": "^7.0.0",
+    "tar": "^8.0.0",
     "typescript": "^7.0.0"
   },
   "dependencies": {
